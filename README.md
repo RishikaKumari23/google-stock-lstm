@@ -3,10 +3,10 @@ Google Stock Price Prediction using LSTM in Python
 # Overview
 This self-initiated project explores the use of Long Short-Term Memory (LSTM) neural networks for predicting the stock price of Google (GOOG) based on historical closing price data. The project demonstrates time series modeling using Python, TensorFlow/Keras, and visual analytics.
 # Tools & Technologies
-Python
+Python,
 Pandas, NumPy, Scikit-learn
-TensorFlow, Keras
-Matplotlib
+TensorFlow, Keras,
+Matplotlib,
 Yahoo Finance API (yfinance)
 #  Problem Statement
 Can we predict the next closing price of Google stock using only the previous 60 days of data? This project answers that by building and evaluating an LSTM-based deep learning model.
@@ -31,12 +31,12 @@ Can we predict the next closing price of Google stock using only the previous 60
 
 
 # Results
-Achieved ~94% accuracy on test set
-Captured stock price trends effectively
-Demonstrates the usefulness of LSTM in financial time series prediction
-#Future Improvements
-Add technical indicators (e.g., RSI, MACD)
-Use multivariate inputs (volume, open/high/low prices)
-Add attention mechanism or GRU comparison
-Deploy as a web app using Streamlit or Flask
+1. Achieved ~94% accuracy on test set
+2. Captured stock price trends effectively
+3. Demonstrates the usefulness of LSTM in financial time series prediction
+# Future Improvements
+1. Add technical indicators (e.g., RSI, MACD)
+2. Use multivariate inputs (volume, open/high/low prices)
+3. Add attention mechanism or GRU comparison
+4. Deploy as a web app using Streamlit or Flask
 
